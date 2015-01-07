@@ -855,7 +855,7 @@ span .ui-icon .ui-icon-plus{
 
 
 /* third breakpoint is 48em (768px). 3 column layout. Tiles 250x250 pixels incl. margin at the breakpoint. */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 48em) and (min-device-pixel-ratio: 3) {
     
     /*Homepage Image*/
     
