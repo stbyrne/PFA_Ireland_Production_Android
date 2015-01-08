@@ -744,6 +744,14 @@ span .ui-icon .ui-icon-plus{
         font-size: .8em;
         
     }
+    .highlight {
+        padding: 40px 15px;
+        font-size: 3em;
+    }
+    .lowlight {
+        padding: 30px 15px;
+        font-size: 2em;
+    }
     .feature .article-caption{
         font-size: 1em;
     }
@@ -768,11 +776,15 @@ span .ui-icon .ui-icon-plus{
     }
     
     #left-panel span{
-    font-size: 1em;
+    font-size: 2em;
     }
     #left-panel p{
     font-size: 2.2em;
     margin: 17px auto;
+    }
+    
+    .ui-btn-inner {
+        line-height: 2.6em;
     }
     /*Icons Transfer Table*/
     
@@ -850,6 +862,11 @@ span .ui-icon .ui-icon-plus{
     }
     .app .ui-listview li a.ui-link-inherit p.ui-li-desc{
         margin: -.1em 0 .6em;
+        font-size: 2.4em;
+    }
+    .app .ui-listview li a.ui-link-inherit h2.ui-li-heading{
+        margin: -.1em 0 .6em;
+        font-size: 2.4em;
     }
     
 }
@@ -876,17 +893,32 @@ span .ui-icon .ui-icon-plus{
     #subTitle{
     font-size: 2.2em;
     }
+    
+    .home-display h3 {
+        font-size: 4em;
+    }
+    
+    .home-display p#desc {
+        font-size: 2em;
+    }
 
     #cont-link a {
-        height: 160px;
+        height: 150px;
     }
     #cont-link a span:not(.arrow-right-home){
-        font-size: 3em;
+        font-size: 4.2em;
+    }
+    .contact-display h3 {
+        font-size: 4em;
+    }
+    
+    .contact-display p {
+        font-size: 4em;
     }
     .arrow-right-home{
-        background-size: 20px;
-        width: 40px;
-        height: 40px;
+        background-size: 30px;
+        width: 60px;
+        height: 60px;
     }
     
     /* Communications footer on homepage*/
@@ -895,16 +927,15 @@ span .ui-icon .ui-icon-plus{
     }*/
     
     #com div a{
-    height: 120px;
+    height: 160px;
     
     }
     #com div a img{
     }
-    #com div a span{
-    background-size: 150px;
-    background-position: 0 10px;
-    padding-left: 150px;
-    padding-bottom: 120px;
+    #com div a span {
+        background-size: 180px;
+        padding-left: 180px;
+        padding-bottom: 130px;
     }
     .feature .article-headline{
         font-size: 1.8em;  
@@ -920,16 +951,28 @@ span .ui-icon .ui-icon-plus{
         font-size: 1.4em;
     }
     .feature p, .ui-content p{
-        font-size: 2em;
+        font-size: 1.4em;
         /*font-weight: 200;*/
+    }
+    #menuNav img, #homeNav img {
+        height: 1.5em;
     }
     
     #menuNav, #homeNav, #helpNav{
-        font-size: 2.4em;
+        font-size: 3em;
+    }
+    .ui-btn-inner {
+        font-size: 19px;
+    }
+    .ui-btn-inner a.ui-link-inherit{
+        padding-right: 20px;
+    }
+    a.ui-link-inherit {
+        height: 50px;
     }
     
     #left-panel span{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     #left-panel p{
         font-size: 2.4em;     
