@@ -887,7 +887,7 @@ span .ui-icon .ui-icon-plus{
     }
     
     #sectionTitle{
-    font-size: 3em;
+    font-size: 2.6em;
     }
     
     #subTitle{
@@ -909,11 +909,11 @@ span .ui-icon .ui-icon-plus{
         font-size: 4.2em;
     }
     .contact-display h3 {
-        font-size: 4em;
+        font-size: 3em;
     }
     
     .contact-display p {
-        font-size: 4em;
+        font-size: 2.6em;
     }
     .arrow-right-home{
         background-size: 30px;
@@ -951,7 +951,7 @@ span .ui-icon .ui-icon-plus{
         font-size: 1.4em;
     }
     .feature p, .ui-content p{
-        font-size: 1.4em;
+        font-size: 2.2em;
         /*font-weight: 200;*/
     }
     #menuNav img, #homeNav img {
@@ -967,12 +967,16 @@ span .ui-icon .ui-icon-plus{
     .ui-btn-inner a.ui-link-inherit{
         padding-right: 20px;
     }
+    
+    #left-panel a.ui-link-inherit{
+        padding: 1.6em 5px;
+    }
     a.ui-link-inherit {
         height: 50px;
     }
     
     #left-panel span{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     #left-panel p{
         font-size: 2.4em;     
