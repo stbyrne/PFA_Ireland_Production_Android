@@ -659,7 +659,7 @@ span .ui-icon .ui-icon-plus{
 /*Transfer List*/
 .tw-date{
     background: rgb(210, 210, 210); 
-    padding: 20px 15px;
+    padding: 30px 15px;
     margin: 0 -15px;
 }
 .highlight{
@@ -969,17 +969,22 @@ span .ui-icon .ui-icon-plus{
     }
     
     #left-panel a.ui-link-inherit{
-        padding: 1.6em 5px;
+        padding: 1.6em 0px;
     }
     a.ui-link-inherit {
         height: 50px;
     }
     
     #left-panel span{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     #left-panel p{
         font-size: 2.4em;     
+    }
+    .arrow-right {
+        background-size: 30px;
+        width: 25px;
+        height: 20px;
     }
     
     /*Custom Buttons*/
@@ -1002,47 +1007,47 @@ span .ui-icon .ui-icon-plus{
     .icon-transferlist, .icon-news, .icon-membership, .icon-coaching, .icon-health, .icon-career, .icon-antidoping, .icon-tax, .icon-transfer, .icon-betting, .icon-agency, .icon-maps{
         background-image: url('../images/list-icons/list-icons.svg');
         background-repeat: no-repeat;
-        background-size: 23px;
-        padding-left: 23px;
+        background-size: 30px;
+        padding-left: 30px;
     
     }
     .icon-transferlist{
         background-position: 0 0;    
     }
     .icon-news{
-        background-position: 0 -23px;
+        background-position: 0 -30px;
            
     }
     .icon-membership{
-        background-position: 0 -46px;
+        background-position: 0 -60px;
       
     }
     .icon-coaching{
-        background-position: 0 -69px;
+        background-position: 0 -90px;
     }
     .icon-health{
-        background-position: 0 -92px;
+        background-position: 0 -120px;
     }
     .icon-career{
-        background-position: 0 -115px;
+        background-position: 0 -150px;
     }
     .icon-antidoping{
-        background-position: 0 -138px;
+        background-position: 0 -180px;
     }
     .icon-tax{
-        background-position: 0 -161px;
+        background-position: 0 -210px;
     }
     .icon-transfer{
-        background-position: 0 -184px;
+        background-position: 0 -240px;
     }
     .icon-betting{
-        background-position: 0 -207px;
+        background-position: 0 -270px;
     }
     .icon-agency{
-        background-position: 0 -230px;
+        background-position: 0 -300px;
     }
     .icon-maps{
-        background-position: 0 -253px;
+        background-position: 0 -330px;
     }
 }
 
