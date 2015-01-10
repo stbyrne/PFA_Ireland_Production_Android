@@ -883,7 +883,7 @@ span .ui-icon .ui-icon-plus{
     }
     
     .ui-header{
-        height: 160px;  
+        height: 140px;  
     }
     
     #sectionTitle{
@@ -895,18 +895,18 @@ span .ui-icon .ui-icon-plus{
     }
     
     .home-display h3 {
-        font-size: 4em;
+        font-size: 3em;
     }
     
     .home-display p#desc {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #cont-link a {
-        height: 150px;
+        height: 120px;
     }
     #cont-link a span:not(.arrow-right-home){
-        font-size: 4.2em;
+        font-size: 3.4em;
     }
     .contact-display h3 {
         font-size: 3em;
@@ -959,7 +959,7 @@ span .ui-icon .ui-icon-plus{
     }
     
     #menuNav, #homeNav, #helpNav{
-        font-size: 3em;
+        font-size: 2.6em;
     }
     .ui-btn-inner {
         font-size: 19px;
@@ -969,14 +969,14 @@ span .ui-icon .ui-icon-plus{
     }
     
     #left-panel a.ui-link-inherit{
-        padding: 1.6em 0px;
+        padding: 1.4em 0px;
     }
     a.ui-link-inherit {
         height: 50px;
     }
     
     #left-panel span{
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     #left-panel p{
         font-size: 2.4em;     
@@ -1048,6 +1048,33 @@ span .ui-icon .ui-icon-plus{
     }
     .icon-maps{
         background-position: 0 -330px;
+    }
+    /*News Section*/
+    
+    .app .ui-listview:not(#listLeft) li.ui-li .ui-btn-inner a.ui-link-inherit{
+        min-height: 99px;
+        padding-left: 140px;
+    }
+    /*.app .ui-listview li a.ui-link-inherit img.ui-li-thumb*/
+    .ui-li-thumb{
+        min-height: 120px;
+        min-width: 120px;
+    }
+    .app .ui-listview li a.ui-link-inherit p.ui-li-desc{
+        margin: 0;
+        font-size: 1.4em;
+    }
+    .app .ui-listview li a.ui-link-inherit h2.ui-li-heading{
+        margin: 0;
+        font-size: 1.8em;
+    }
+    #newslist li div a {
+        padding-right: 40px;
+    }
+    .arrow-right-news {
+        background-size: 25px;
+        width: 25px;
+        height: 30px;
     }
 }
 

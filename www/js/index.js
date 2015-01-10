@@ -16,8 +16,8 @@ $(function(){
 function jsonTitles(holdData){
 
     $.ajax({
-        url: 'content.json',
-        /*url: "https://googledrive.com/host/0B0778NZ3pAKKcHYxWjBiLTc5UjA/content.json",*/
+        /*url: 'content.json',*/
+        url: "https://googledrive.com/host/0B0778NZ3pAKKcHYxWjBiLTc5UjA/content.json",
         jsonpCallback: 'jsonCallback',
         dataType: 'jsonp',
         cache: false,
