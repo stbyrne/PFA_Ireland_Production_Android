@@ -881,6 +881,12 @@ span .ui-icon .ui-icon-plus{
         background-position: 0 -200px;
         height: 900px;  
     }
+    .home-display h3{
+    width: 50%;
+    }
+    .home-display p#desc{
+    width: 50%;
+    }
     
     .ui-header{
         height: 140px;  
@@ -977,6 +983,7 @@ span .ui-icon .ui-icon-plus{
     
     #left-panel span{
         font-size: 1.8em;
+        letter-spacing: -1px;
     }
     #left-panel p{
         font-size: 2.4em;     
