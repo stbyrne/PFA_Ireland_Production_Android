@@ -1083,6 +1083,9 @@ span .ui-icon .ui-icon-plus{
         width: 25px;
         height: 30px;
     }
+    .tw-title, .tw-date{
+        font-size: 2em;   
+    }
 }
 
 
