@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ie.pfai.appProduction"
+        id        = "ie.pfai.app"
         version   = "0.0.2"
         versionCode = "1" >
 
@@ -70,7 +70,7 @@
     <!--<preference name="StatusBarOverlaysWebView" value="true" />-->
     <!--<preference name="StatusBarBackgroundColor" value="#f80000" />-->
     
-    <!-- ANDROID PREFERENCES -->
+    <!-- AND PREFERENCES -->
         
     <preference name="android-minSdkVersion" value="15" /> <!-- minimum Android 2.1 -->
     <preference name="android-maxSdkVersion" value="19" />
