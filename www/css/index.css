@@ -551,6 +551,7 @@ span{
 
 .feature img, .static-image{
     width: 80%;
+    height: auto;
     display: block;
     position: relative;
     margin: 5px auto 10px;
