@@ -7,10 +7,10 @@
         version   = "1.0"
         versionCode = "1" >
 
-    <name>PFA Ireland Mobile</name>
+    <name>Players FA Ireland Mobile</name>
 
     <description>
-        PFA Ireland application
+        Players FA Ireland application
     </description>
 
     <author href="http://pfai.ie" email="strtbyrne@gmail.com">
