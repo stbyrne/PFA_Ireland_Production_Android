@@ -3,8 +3,8 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ie.pfai.application"
-        version   = "0.0.2"
+        id        = "ie.pfai.mobileApp"
+        version   = "1.0"
         versionCode = "1" >
 
     <name>PFA Ireland Mobile</name>
@@ -14,7 +14,7 @@
     </description>
 
     <author href="http://pfai.ie" email="strtbyrne@gmail.com">
-        Stuart Byrne
+        S Byrne
     </author>
     <content src="index.html" />
 <!--    <gap:platform name="ios" />-->
