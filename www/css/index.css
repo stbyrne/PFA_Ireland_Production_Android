@@ -364,10 +364,13 @@ body .ui-body-c {
     text-align: center;
     background: #fafafa;
     background: rgba(245, 245, 245, .85);
-    -webkit-box-shadow: inset 0 -1px 1px rgba(95,95,95,.8);
-    -moz-box-shadow: inset 0 -1px 1px rgb(0,0,0);
-    -ms-box-shadow: inset 0 -1px 1px rgb(0,0,0);
-    box-shadow: inset 0 -1px 1px rgba(95,95,95,.8);
+    -webkit-box-shadow: 0 -1px 1px rgba(95,95,95,.8);
+    -moz-box-shadow: 0 -1px 1px rgb(0,0,0);
+    -ms-box-shadow: 0 -1px 1px rgb(0,0,0);
+    box-shadow: 0 -1px 1px rgba(95,95,95,.8);
+}
+#com div a p{
+    font-size: 3em;
 }
 #com div a span{
     background-size: 70px;
@@ -377,6 +380,7 @@ body .ui-body-c {
 }
 #com div a:active{
     background: rgb(95, 95, 95);
+    border: 2px rgb(255, 255, 255);
 }
 .icon-mobile{
     background-image: url('../images/call_gr.svg');
@@ -393,6 +397,9 @@ body .ui-body-c {
 .icon-facebook{
     background-image: url('../images/face_gr.svg');
     background-repeat: no-repeat;
+}
+#com div a:active p{
+    color: #fff;
 }
 
 #com div a:active span.icon-mobile{
