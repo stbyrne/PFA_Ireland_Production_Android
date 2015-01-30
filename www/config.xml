@@ -3,18 +3,18 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ie.pfai.beta"
+        id        = "ie.pfai.appProduction"
         version   = "1.0"
         versionCode = "1" >
 
-    <name>Players FA Ireland Mobile</name>
+    <name>PFA Ireland Mobile</name>
 
     <description>
-        Players FA Ireland application
+        PFA Ireland application
     </description>
 
     <author href="http://pfai.ie" email="strtbyrne@gmail.com">
-        S Byrne
+        Stuart Byrne
     </author>
     <content src="index.html" />
 <!--    <gap:platform name="ios" />-->
@@ -79,7 +79,7 @@
     <preference name="load-url-timeout" value="6000" />
 
     <icon src="icon.png" />
-    <icon src="icons/ios/icon.png"            gap:platform="ios"        width="57" height="57" />
+    <!--<icon src="icons/ios/icon.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="icons/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="icons/ios/icon@2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="icons/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
@@ -91,16 +91,16 @@
     <gap:splash src="splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
     <gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="748" />
     <gap:splash src="splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1004" />
-    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
+     retina iPad support: PhoneGap 2.5.0+ only 
     <gap:splash src="splash/ios/Default-Landscape_at_2x.png" gap:platform="ios" width="2048" height="1496" />
-    <gap:splash src="splash/ios/Default-Portrait_at_2x.png" gap:platform="ios" width="1536" height="2008" />
+    <gap:splash src="splash/ios/Default-Portrait_at_2x.png" gap:platform="ios" width="1536" height="2008" />-->
     
     <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
     <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
     
-    <gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
+    <!--<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />-->
     
     <!--Access all domains-->
     
