@@ -3,9 +3,9 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ie.pfai.appProduction"
+        id        = "ie.pfai.beta"
         version   = "2.0"
-        versionCode = "1" >
+        versionCode = "2" >
 
     <name>PFA Ireland Mobile</name>
 
@@ -26,17 +26,10 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.geolocation" />
     
-    <gap:config-file platform="ios" parent="NSLocationAlwaysUsageDescription" overwrite="true">
-
-
-        <string>PFA Ireland Mobile would like to use your current location</string>
-
-
-    </gap:config-file>
 	
 	<preference name="permissions"                value="none"/>
 
-    <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
