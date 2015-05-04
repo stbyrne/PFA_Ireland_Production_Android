@@ -5,7 +5,7 @@
             <div class="buttons">
                 <button class="button button-icon button-clear ion-drag" menu-toggle="left">
             </button>
-                <button ng-click="centerOnMe()" class="button icon button-icon ion-ios7-paperplane-outline"></button>
+                <!--<button ng-click="centerOnMe()" class="button icon button-icon ion-ios7-paperplane-outline"></button>-->
             </div>
             <div class="item-button-right">
                 <a href="#/app/main" class="button icon button-icon button-home">Home</a>
@@ -14,5 +14,11 @@
     </ion-nav-bar>
     <ion-content scroll="false">
       <map on-create="mapCreated(map)"></map>
+        <ion-list class="contact-list">
+            <ion-item class="item-icon-right" ng-click="centerOnMe()" href="#">
+                <h4>Tap to get location</h4>
+                <i class="icon ion-ios7-paperplane-outline"></i>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>

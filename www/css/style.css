@@ -164,6 +164,13 @@ map {
     width: 100%;
     height: 100%;
 }
+.bar-map{
+    background-color: rgba(60, 60, 60, 0.65);
+}
+.bar-map .button, .bar-map h1{
+    color: #fff;
+    text-align: center;
+}
 .scroll {
     height: 100%;
 }
