@@ -152,7 +152,7 @@ resource-list .list .item-divider h2, resource-list .list .item-divider p{
     border: none;
     border-width: 0;
 }
-.item-button-right > .button-home, .item-button-right > .button-more{
+.item-button-right .button-home{
     bottom: 5px;
     right: 2px;
     top:auto;
