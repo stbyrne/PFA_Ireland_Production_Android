@@ -233,15 +233,18 @@ i.icon.ion-loading-c {
 }
 
 .card{
-    margin: 20px 0; 
+    margin: 0 0 20px; 
     border-radius: 0; 
 }
 
 .article h4{
     
-    text-align: center;
-    font-weight: 400;
-    color:  rgb(255, 170, 0);
+  text-align: center;
+  font-weight: 400;
+  color: rgb(255, 170, 0);
+  margin: 0;
+  padding: 10px 0;
+  background-color: rgb(235,235,235);
     
 }
 .article span{
