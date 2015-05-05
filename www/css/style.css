@@ -17,18 +17,22 @@
     -o-background-size: cover; 
     background-size: cover; 
 }
-.contact-list{
+.contact-list, .map-list{
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
-.contact-list .list .item{
+.contact-list .list .item, .map-list .list .item{
     background-color: transparent;
     border: none;
     border-top: 2px solid green;
 }
 .contact-list .list .item .item-content{
+    background-color: rgba(60, 60, 60, 0.65);
+    padding: 3% 25% 3% 5%;
+}
+.map-list .list .item .item-content{
     background-color: rgba(60, 60, 60, 0.65);
     padding: 3% 25% 3% 5%;
 }
@@ -44,7 +48,7 @@ contact-list .list .item-divider h2, contact-list .list .item-divider p{
     color: #fff;
     
 }
-.contact-list .list .item .item-content:active{
+.contact-list .list .item .item-content:active, .map-list .list .item .item-content:active{
     background-color: rgba(255,255,255, 0.6);
 }
 .contact-list .list .item .item-content h4{
@@ -53,22 +57,27 @@ contact-list .list .item-divider h2, contact-list .list .item-divider p{
     color: rgb(255,255,255);
     border-bottom: 5px solid rgb(255, 170, 0);
 }
-.contact-list .list .item .item-content:active h4{
+.map-list .list .item .item-content h4{
+    font-size: 1.6em;
+    font-weight: 100;
+    color: rgb(255,255,255);
+}
+.contact-list .list .item .item-content:active h4, .map-list .list .item .item-content:active h4{
     color: rgb(40,40,40);
 }
-.contact-list .list .item .item-content p{
+.contact-list .list .item .item-content p, .map-list .list .item .item-content p{
     font-size: .8em;
     font-weight: 200;
     color: rgb(255,255,255);
 }
-.contact-list .list .item .item-content:active p{
+.contact-list .list .item .item-content:active p, .map-list .list .item .item-content:active p{
     color: rgb(40,40,40);
 }
-.contact-list .list .item .item-content i{
+.contact-list .list .item .item-content i, .map-list .list .item .item-content i{
     color: rgb(255,255,255);
     font-size: 40px;
 }
-.contact-list .list .item .item-content:active i{
+.contact-list .list .item .item-content:active i, .map-list .list .item .item-content:active i{
     color: green;
 }
 .contact{
@@ -430,10 +439,10 @@ img.section-main{
 @media only screen and (max-height: 420px) {
       
       
-      .contact-list .list .item .item-content h4{
-        font-size: 1.5em;
+      .contact-list .list .item .item-content h4, .map-list .list .item .item-content h4{
+        font-size: 1.2em;
         } 
-      .contact-list .list .item .item-content{
+      .contact-list .list .item .item-content, .map-list .list .item .item-content{
         background-color: rgba(60, 60, 60, 0.65);
         padding: .5% 25% .5% 5%;
         }
